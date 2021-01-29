@@ -1,9 +1,13 @@
-# Portifolio
-portifolio do desenvolvedor 
+# portfolio
+portfolio do desenvolvedor 
 
 ## Tarefas
-<<<<<<< HEAD
 
 O controle das tarefas desse projeto será realizado no GitHub
-=======
->>>>>>> 5a3fb6dfdd587ccfbeb0b7226f85e11cffb13bdf
+
+## Icones
+
+:package: nova_funcionalidade
+:cyclone: atualização
+:beetle: correção de bug
+:registered: release

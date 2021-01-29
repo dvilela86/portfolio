@@ -11,7 +11,7 @@ O controle das tarefas desse projeto será realizado no GitHub
 :cyclone: atualização
 :beetle: correção de bug
 :registered: release
-=======
+
 # Portfolio
 portfolio do desenvolvedor 
 

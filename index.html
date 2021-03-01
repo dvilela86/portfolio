@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="Imagens/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="Imagens/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>Portfólio</title>
+    
 </head>
 <body>
+
     
     <div class="container"> 
 
@@ -21,36 +24,289 @@
             <span>fechar</span>
         </div>
 
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="Imagens/bg.jpg" alt="">
             </div>
             <div  class="banner">
                  <h1>Web Developer & Front End Designer</h1>
                  <p>Dennis Vilela</p>
-                 <button>Saiba mais</button>
+                 <a href="#Saiba-mais"><button>Saiba mais</button> </a>
             </div>
-        <header>
-            <div class="sidebar">
+        </header>
+
+            <aside class="sidebar">
                 <nav>
                     <ul class="menu">
                         <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                        <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                        <li class="menu-item"><a href="#Projetos" class="menu-link">Projetos</a></li>
                     </ul>
                 </nav>
                 <div class="social-media">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/dnis.vilela"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://github.com/dvilela86"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/dennisvilelaa/"><i class="fab fa-instagram"></i></a>
                 </div>
-            </div>
-  
-    </div>
-    <body>
+            </aside>
+         
+            
+            <section class="sessao-conhecimentos" id="conhecimentos">
+                <div class="sessao-header">
+                  <h1>Conhecimentos</h1>
+                </div>
+                <div class="conhecimentos">
+                  <div class="conhecimento">
+                    <div class="conhecimento-header">
+                      <i class="fab fa-html5"></i>
+                      <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                      <p>Conhecimento básico na liguagem de marcação HTML.</p>
+                    </div>
+                  </div>
+                  <div class="conhecimento">
+                    <div class="conhecimento-header">
+                      <i class="fab fa-css3-alt"></i>
+                      <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                      <p>Conhecimento básico na liguagem CSS.</p>
+                    </div>
+                  </div>
+                  <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-python"></i>
+                      <h3>Pyton</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                      <p>Conhecimento básico na <br>linguagem de progração Pyton.<br/></p>
+                    </div>
+                  </div>
+                  <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js-square"></i>
+                      <h3>Javascript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                      <p>Conhecimento básico na linguagem de programação JS.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="conhecimento">
+                    <div class="conhecimento-header">
+                      <i class="fas fa-globe-americas"></i>
+                      <h3>Ingles</h3>
+                    </div>
+                      <div class="conhecimento-text">
+                      <p>Conhecimento intermediário em inles, cursado 2 anos na escolade idiomas CNA.</p>
+                    </div>
+                  </div>
+                  <div class="conhecimento">
+                    <div class="conhecimento-header">
+                      <i class="fab fa-github"></i>
+                      <h3>Git e GitHub</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                      <p>Conhecimento básico na plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.</p>
+                    </div>
+                  </div>
+                  <div class="conhecimentos-img-wrapper">
+                    <img src="imagens/conhecimento.jpg" alt="imagem conhecimento">
+                  </div>
+                </div>
+               </div>
+                </section>                
+                  <section class="Projetos" id="Projetos">
+                  <div class="sessao-header">
+                    <h1>Projetos</h1>
+                  </div>
+                  <div class="projetos">
+                    <div class="card">
+                      <div class="card-img-wrapper">
+                      <img src="imagens/educação3.jpg" alt="imagem da palestra sobre Educação financeira"/>
+                      </div>
+                      <div class="card-info">
+                        <h2>Palestra sobre educação financeira</h2>
+                        <h3>Educação Financeira</h3>
+                        <p>Elaborei um projeto em uma comunidade sobre eduação financeira, onde tinha como 
+                          objetivo conscientizar e educar sobre ter hábitos saudaveis com o dinheiro.</p>
+                          <a href="#Saiba-mais2"><button>Saiba mais</button></a>
+                      </div>
+                      </div>
+                    <div class="card">
+                      <div class="card-img-wrapper">
+                        <img src="imagens/projeto 2.jpg" alt="imagem do projeto social"/>
+                      </div>
+                      <div class="card-info">
+                        <h2>Lider de trabalho voluntários</h2>
+                        <h3>Trabalhos voluntários</h3>
+                        <p>Liderava uma equipe de jovens, criando  ideias e as organizando de modo que sejam
+                          feitos trabalhos voluntários na comunidade do capão redondo.</p>
+                          <a href="#Saiba-mais3"><button>Saiba mais</button></a>
+                      </div>
+                      </div>
+                    </div>
+                    </section>
+                    <section class="Saiba-mais" id="Saiba-mais">
+                      <div class="sessao-header">
+                        <h1>Saiba Mais</h1>
+                      </div>
+                      <div class="saiba-mais">
+                        <div class="card">
+                          <div class="card-img-wrapper">
+                          <img src="imagens/denis1.jpg" alt="imagem denis1"/>
+                          </div>
+                          <div class="card-info">
+                            <h2>Sobre mim</h2>
+                            <p>Sou paulistano, 34 anos, criativo, animado e motivado por desafios.
+                              Tenho bastante apreciação pelo aprendizado e desejo muito me dessenvolver
+                              cada vez mais, seja a partir de auto análise ou recebendo e aplicando feedback.
+                              As oportunidades no ramo de tecnologia são as melhores para mim, pois tive contato
+                              com  esta área através da minha paixão à solucionar problemas e na ância em transformar
+                              positivamente o meu redor, sempre buscando me tornar o profissional que o futuro
+                              precisa.</p>
+                            </div>
+                          </div>
+                        <div class="card">
+                          <div class="card-img-wrapper">
+                            <img src="imagens/projeto 2.4.jpg" alt="imagem do projeto social"/>
+                          </div>
+                          <div class="card-info">
+                            <h2>Lider de trabalho voluntários</h2>
+                            <h3>Trabalhos voluntários</h3>
+                            <p>Liderei uma equipe de jovens por 8 anos, criando  ideias e as organizando de modo que sejam
+                              feito trabalho voluntário na comunidade do capão redondo.Como por exemplo:
+                              Arrecadações de alimentos, Visitas em orfanatos e asilos, dinamicas e atividades 
+                              para desenvolvimento pessoal e atividades recreativa.</p>
+                              </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-img-wrapper">
+                              <img src="imagens/Denis2.jpg" alt="imagem do projeto social"/>
+                            </div>
+                            <div class="card-info">
+                              <h2>Empresa Brasileira de Correios</h2>
+                              <h3>Funcionário Público</h3>
+                              <p>Funcionáro público há 8 anos, onde realizo atividades de tratamento e triagem 
+                                das enconendas vindas de outros estados e cidades para a capital.
+                                ja cobri férias de supervisão por 2 anos consecutivos, onde além de supervisionar a operação
+                              era encarregado pela distribuição de tarefas e controle de produção.</p>
+                            </div>
+                            </div>
+                        </div>  
+                        </section>
+                        <section class="Saiba-mais2" id="Saiba-mais2">
+                          <div class="sessao-header">
+                            <h1>Palestra Educação Financeira</h1>
+                          </div>
+                          <div class="saiba-mais2">
+                            <div class="cards">
+                              <div class="cards-img-wrapper">
+                              <img src="imagens/educação.jpg" alt="imagem educação"/>
+                              </div>
+                              <div class="cards-info">
+                              </div>
+                              </div>
+                            <div class="cards">
+                              <div class="cards-img-wrapper">
+                                <img src="imagens/educação1.jpg" alt="imagem educação"/>
+                              </div>
+                              <div class="cards-info">
+                              </div>
+                              </div>
+                              <div class="cards">
+                                <div class="cards-img-wrapper">
+                                  <img src="imagens/educação2.jpg" alt="imagem educação"/>
+                                </div>
+                                <div class="cards-info">                                                                               
+                            </div>                    
+                            </div>
+                            <div class="cards">
+                              <div class="cards-img-wrapper">
+                              <img src="imagens/educação3.jpg" alt="imagem educação"/>
+                              </div>
+                              <div class="cards-info">
+                              </div>
+                              </div>
+                            <div class="cards">
+                              <div class="cards-img-wrapper">
+                                <img src="imagens/educação4.jpg" alt="imagem do projeto educação"/>
+                              </div>
+                              <div class="cards-info">
+                              </div>
+                              </div>
+                              </div>
+                      </div>
+                      <section class="Saiba-mais2" id="Saiba-mais3">
+                        <div class="sessao-header">
+                          <h1>Projeto Social</h1>
+                        </div>
+                        <div class="saiba-mais2">
+                          <div class="cards">
+                            <div class="cards-img-wrapper">
+                            <img src="imagens/projeto 2.1.jpg" alt="imagem projeto"/>
+                            </div>
+                            <div class="cards-info">
+                            </div>
+                            </div>
+                          <div class="cards">
+                            <div class="cards-img-wrapper">
+                              <img src="imagens/projeto 2.2.jpg" alt="imagem projeto"/>
+                            </div>
+                            <div class="cards-info">
+                            </div>
+                            </div>
+                            <div class="cards">
+                              <div class="cards-img-wrapper">
+                                <img src="imagens/projeto 2.3.jpg" alt="imagem projeto"/>
+                              </div>
+                              <div class="cards-info">                                                                               
+                          </div>                    
+                          </div>
+                          <div class="cards">
+                            <div class="cards-img-wrapper">
+                            <img src="imagens/projeto 2.4.jpg" alt="imagem projeto"/>
+                            </div>
+                            <div class="cards-info">
+                            </div>
+                            </div>
+                          <div class="cards">
+                            <div class="cards-img-wrapper">
+                              <img src="imagens/projeto 2.5.jpg" alt="imagem do projeto"/>
+                            </div>
+                            <div class="cards-info">
+                            </div>
+                            </div>
+                            </div>
+                    </div>
+
+                          <footer>
+                            <div class="footer-content">
+                       <p>
+                         Copyright &copy: 2021, DENIS DV - Todos os direitos reservados
+                       </p>
+                       <div class="social-list">
+                         <ul>
+                           <li><a href="https://www.facebook.com/dnis.vilela"><i class="fab fa-facebook-square"></i></a></li>
+                           <li></li><a href="https://github.com/dvilela86"><i class="fab fa-github"></i></a></li>
+                           <li></li><a href="https://www.instagram.com/dennisvilelaa/"><i class="fab fa-instagram"></i></a></li>
+                         </ul>
+                     </div>
+                     </div>
+                   </footer>
+                   <a href="#home" id="link-topo">
+                     <i class="fas fa-arrow-up"></i>
+                   </a> 
+                                              
+                    
+                    
+
+
+      
         
         <script src="script.js"></script>
+
+
 
         </html>
